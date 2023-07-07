@@ -14,6 +14,15 @@
 		68C6D4BB2A58C273006D258E /* Swift_PhotoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68C6D4BA2A58C273006D258E /* Swift_PhotoTests.swift */; };
 		68C6D4C52A58C273006D258E /* Swift_PhotoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68C6D4C42A58C273006D258E /* Swift_PhotoUITests.swift */; };
 		68C6D4C72A58C273006D258E /* Swift_PhotoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68C6D4C62A58C273006D258E /* Swift_PhotoUITestsLaunchTests.swift */; };
+		68C6D4D72A58C312006D258E /* Permissions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68C6D4D42A58C312006D258E /* Permissions.swift */; };
+		68C6D4D82A58C312006D258E /* UIViewController+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68C6D4D52A58C312006D258E /* UIViewController+.swift */; };
+		68C6D4D92A58C312006D258E /* View+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68C6D4D62A58C312006D258E /* View+.swift */; };
+		68C6D4E02A58C321006D258E /* PHLimitAccessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68C6D4DA2A58C320006D258E /* PHLimitAccessViewController.swift */; };
+		68C6D4E12A58C321006D258E /* CustomCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68C6D4DB2A58C321006D258E /* CustomCollectionViewCell.swift */; };
+		68C6D4E22A58C321006D258E /* PHLimitAccessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68C6D4DC2A58C321006D258E /* PHLimitAccessView.swift */; };
+		68C6D4E32A58C321006D258E /* PHPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68C6D4DD2A58C321006D258E /* PHPickerView.swift */; };
+		68C6D4E42A58C321006D258E /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68C6D4DE2A58C321006D258E /* ProfileViewModel.swift */; };
+		68C6D4E72A58C39E006D258E /* CircularProfileImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68C6D4E62A58C39E006D258E /* CircularProfileImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +53,16 @@
 		68C6D4C02A58C273006D258E /* Swift-PhotoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swift-PhotoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		68C6D4C42A58C273006D258E /* Swift_PhotoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_PhotoUITests.swift; sourceTree = "<group>"; };
 		68C6D4C62A58C273006D258E /* Swift_PhotoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_PhotoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		68C6D4D42A58C312006D258E /* Permissions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Permissions.swift; sourceTree = "<group>"; };
+		68C6D4D52A58C312006D258E /* UIViewController+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+.swift"; sourceTree = "<group>"; };
+		68C6D4D62A58C312006D258E /* View+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "View+.swift"; sourceTree = "<group>"; };
+		68C6D4DA2A58C320006D258E /* PHLimitAccessViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PHLimitAccessViewController.swift; sourceTree = "<group>"; };
+		68C6D4DB2A58C321006D258E /* CustomCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCollectionViewCell.swift; sourceTree = "<group>"; };
+		68C6D4DC2A58C321006D258E /* PHLimitAccessView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PHLimitAccessView.swift; sourceTree = "<group>"; };
+		68C6D4DD2A58C321006D258E /* PHPickerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PHPickerView.swift; sourceTree = "<group>"; };
+		68C6D4DE2A58C321006D258E /* ProfileViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewModel.swift; sourceTree = "<group>"; };
+		68C6D4E62A58C39E006D258E /* CircularProfileImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularProfileImage.swift; sourceTree = "<group>"; };
+		68C6D4E92A58C5A2006D258E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,9 +113,13 @@
 		68C6D4A82A58C271006D258E /* Swift-Photo */ = {
 			isa = PBXGroup;
 			children = (
+				68C6D4E92A58C5A2006D258E /* Info.plist */,
 				68C6D4A92A58C271006D258E /* Swift_PhotoApp.swift */,
 				68C6D4AB2A58C271006D258E /* ContentView.swift */,
+				68C6D4E82A58C3BF006D258E /* Views */,
+				68C6D4DE2A58C321006D258E /* ProfileViewModel.swift */,
 				68C6D4AD2A58C272006D258E /* Assets.xcassets */,
+				68C6D4D32A58C312006D258E /* Utils */,
 				68C6D4AF2A58C272006D258E /* Preview Content */,
 			);
 			path = "Swift-Photo";
@@ -125,6 +148,28 @@
 				68C6D4C62A58C273006D258E /* Swift_PhotoUITestsLaunchTests.swift */,
 			);
 			path = "Swift-PhotoUITests";
+			sourceTree = "<group>";
+		};
+		68C6D4D32A58C312006D258E /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				68C6D4D42A58C312006D258E /* Permissions.swift */,
+				68C6D4D52A58C312006D258E /* UIViewController+.swift */,
+				68C6D4D62A58C312006D258E /* View+.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		68C6D4E82A58C3BF006D258E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				68C6D4E62A58C39E006D258E /* CircularProfileImage.swift */,
+				68C6D4DB2A58C321006D258E /* CustomCollectionViewCell.swift */,
+				68C6D4DC2A58C321006D258E /* PHLimitAccessView.swift */,
+				68C6D4DA2A58C320006D258E /* PHLimitAccessViewController.swift */,
+				68C6D4DD2A58C321006D258E /* PHPickerView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,6 +303,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				68C6D4AC2A58C271006D258E /* ContentView.swift in Sources */,
+				68C6D4E12A58C321006D258E /* CustomCollectionViewCell.swift in Sources */,
+				68C6D4E32A58C321006D258E /* PHPickerView.swift in Sources */,
+				68C6D4D72A58C312006D258E /* Permissions.swift in Sources */,
+				68C6D4E42A58C321006D258E /* ProfileViewModel.swift in Sources */,
+				68C6D4E02A58C321006D258E /* PHLimitAccessViewController.swift in Sources */,
+				68C6D4D82A58C312006D258E /* UIViewController+.swift in Sources */,
+				68C6D4D92A58C312006D258E /* View+.swift in Sources */,
+				68C6D4E22A58C321006D258E /* PHLimitAccessView.swift in Sources */,
+				68C6D4E72A58C39E006D258E /* CircularProfileImage.swift in Sources */,
 				68C6D4AA2A58C271006D258E /* Swift_PhotoApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -420,6 +474,8 @@
 				DEVELOPMENT_TEAM = SH989XXM7S;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Swift-Photo/Info.plist";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Photo access";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -449,6 +505,8 @@
 				DEVELOPMENT_TEAM = SH989XXM7S;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Swift-Photo/Info.plist";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Photo access";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
